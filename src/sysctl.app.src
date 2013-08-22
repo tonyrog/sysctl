@@ -1,0 +1,11 @@
+{application, sysctl,
+ [
+  {description, "Api to darwin/freebsd sysctl interface"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
